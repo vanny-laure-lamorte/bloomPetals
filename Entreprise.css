@@ -1,0 +1,149 @@
+/* 1. BALISES */
+
+/*  1a. Section nav*/
+
+nav {
+    background-color: #1f4a45;
+    block-size: 80px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2,
+h3 {
+    color: #E25C49;
+}
+
+p {
+    color: #3c3c3c;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+    color: #f0ebda;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+/*  1b. Section header*/
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 3em;
+    color: #1f4a45;
+}
+
+header {
+    background-color: #f0ebda;
+    padding: 1em;
+}
+
+a:hover {
+    color: #f0ebda;
+    text-decoration: underline;
+}
+
+/*  1c. Section main*/
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+/*  1d. Section footer*/
+
+footer {
+    padding: 1.5em;
+    background-color: #1f4a45;
+}
+
+/* 2. CLASS */
+
+/* 2a. section nav */
+.nav-menu {
+    color: #f0ebda;
+    text-decoration: none;
+}
+
+.search-box {
+    border-radius: 20;
+    margin-right: 10px;
+    border-radius: 2%;
+}
+
+.recherche {
+    border-radius: 30px;
+    padding: 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* 2b. Section header */
+
+/* 2c. Section main */
+
+.bloc-intro {
+    display: flex;
+    justify-content: center;
+
+}
+
+.photo-rose {
+    width: 50%;
+    margin: 0em 3em 3em 3em;
+    border: 3px solid #E25C49;
+}
+
+.img-staff {
+    width: 180px;
+    height: 180px;
+    border: 3px solid #E25C49;
+    border-radius: 90px;
+    margin: 2em 2em 2em 2em;
+}
+
+.prenom {
+    color: #E25C49;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.job {
+    font-style: italic;
+    font-weight: 800;
+    line-height: 200%;
+}
+
+/* 2d - Section footer*/
+
+.fa-brands {
+    color: #f0ebda;
+    font-size: 1.5em;
+}
+
+.text-footer {
+    color: #f0ebda;
+    font-size: 1.5em;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px 0px 0px 42px;
+}
+
+.copyright {
+    color: #f0ebda;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: small;
+}
+
+/* 3. IDS */
