@@ -116,6 +116,7 @@ footer {
 .polaroids {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin: 60px;
     background: white; 
 }
@@ -160,3 +161,8 @@ footer {
 
 
 /* 3. IDS */
+
+/* 3. Media Queries */
+
+/* 3. Media Queries */
+
